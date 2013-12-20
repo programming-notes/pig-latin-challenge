@@ -1,10 +1,10 @@
-# Pig Latin 
- 
-##Learning Competencies 
+# Pig Latin
 
-##Summary 
+##Learning Competencies
 
- Here's a story every programmer knows.  Your friend George comes up to you one day and asks, "I have an idea for a script, but I don't want to write it. Will you, my talented programmer friend, do it for me?"
+##Summary
+
+Here's a story every programmer knows. Your friend George comes up to you one day and asks, "I have an idea for a script, but I don't want to write it. Will you, my talented programmer friend, do it for me?"
 
 In this situation your job will involve:
 
@@ -16,9 +16,9 @@ When this process goes wrong, it ends up looking like this:
 
 <img src="/assets/tree_comic.jpg" width="600">
 
-As a programmer, you will be expected to build code from all kinds of specifications: [user stories](http://en.wikipedia.org/wiki/User_story), wireframes, [pseudocode](http://en.wikipedia.org/wiki/Pseudocode).  It's important to be able to understand how to read these models and translate them into a functional program.
+As a programmer, you will be expected to build code from all kinds of specifications: [user stories](http://en.wikipedia.org/wiki/User_story), wireframes, [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). It's important to be able to understand how to read these models and translate them into a functional program.
 
-More importantly, you have to understand the value each model has.  Pseudocode, for example, is primarily used to communicate the essence of an algorithm without getting bogged down in language-specific syntax.  A good programmer can take well-written pseudocode and translate it into functional code in the language of his choice.
+More importantly, you have to understand the value each model has. Pseudocode, for example, is primarily used to communicate the essence of an algorithm without getting bogged down in language-specific syntax. A good programmer can take well-written pseudocode and translate it into functional code in the language of his choice.
 
 ### Learning Goals
 
@@ -59,22 +59,9 @@ DISPLAY the number of words converted
 
 Write code that accomplishes the expectations laid out in the pseudocode above.
 
-
-<!--  DELETED BELOW, TOO GENERAL 
-### Write pseudocode and share
-
-On your own (i.e. not with your pair), come up with a simple script that you'd like to have written.  Write it out in pseudocode.
-
-Then, present your pseudocode to your pair and have them write out the code to match.  When you're finished, you should have two different scripts, each of them written out in both pseudocode and in Ruby.
-
-Submit both of the scripts along with their associated pseudocode as a gist.
-
--->
- 
-
 ##Releases
-###Release 0 
+###Release 0
 
-##Optimize Your Learning 
+##Optimize Your Learning
 
 ##Resources
