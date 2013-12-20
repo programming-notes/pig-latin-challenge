@@ -8,7 +8,7 @@ Here's a story every programmer knows. Your friend George comes up to you one da
 
 In this situation your job will involve:
 
-1. Understanding the picture George has in his head of what he wants built and why
+1. Understanding the picture George has in his head of what he wants built and why.
 2. Creating various representations of what you think he wants, ranging from product specifications, to [wireframes](http://en.wikipedia.org/wiki/Website_wireframe) and [user stories](http://en.wikipedia.org/wiki/User_story), to [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) used to communicate with other engineers.
 3. Implementing prototypes and iterating towards a finalized product.
 
@@ -22,9 +22,9 @@ More importantly, you have to understand the value each model has. Pseudocode, f
 
 ### Learning Goals
 
-* Modeling a real world problem
-* Abstracting the core details from a real world problem
-* Reading and Writing Psuedocode
+* Modeling a real world problem.
+* Abstracting the core details from a real world problem.
+* Reading and Writing Psuedocode.
 
 ## Objectives
 
@@ -37,24 +37,24 @@ Script: CONVERT TO PIG LATIN
 
 Iteration One: CONVERT SINGLE WORD
 
-GET a word from user input
-IF the word starts with a vowel, don't change it
-ELSE replace the word with its pig latin equivalent
-  GET all of the consonants before the first vowel in the word
-  SET the consonants at the end of the word and add the suffix "ay"
+GET a word from user input.
+IF the word starts with a vowel, don't change it.
+ELSE replace the word with its pig latin equivalent.
+  GET all of the consonants before the first vowel in the word.
+  SET the consonants at the end of the word and add the suffix "ay."
 ENDIF
-PRINT the pig-latin-ified word
+PRINT the pig-latin-ified word.
 ```
 
 ```text
 Iteration Two: CONVERT COMPLETE SENTENCE
 
-GET a sentence from user input
-FOR each word in the sentence
+GET a sentence from user input.
+FOR each word in the sentence.
   CONVERT SINGLE WORD
 ENDFOR
-PRINT the converted sentence
-DISPLAY the number of words converted
+PRINT the converted sentence.
+DISPLAY the number of words converted.
 ```
 
 Write code that accomplishes the expectations laid out in the pseudocode above.
