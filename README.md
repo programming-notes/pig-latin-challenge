@@ -2,6 +2,9 @@
 
 ##Learning Competencies
 
+* Model a real world system using ruby code
+* Reading and Writing Psuedocode.
+
 ##Summary
 
 Here's a story every programmer knows. Your friend George comes up to you one day and asks, "I have an idea for a script, but I don't want to write it. Will you, my talented programmer friend, do it for me?"
@@ -9,7 +12,7 @@ Here's a story every programmer knows. Your friend George comes up to you one da
 In this situation your job will involve:
 
 1. Understanding the picture George has in his head of what he wants built and why.
-2. Creating various representations of what you think he wants, ranging from product specifications, to [wireframes](http://en.wikipedia.org/wiki/Website_wireframe) and [user stories](http://en.wikipedia.org/wiki/User_story), to [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) used to communicate with other engineers.
+2. Creating various representations of what you think he wants, including product specifications and means to communicate with other engineers.
 3. Implementing prototypes and iterating towards a finalized product.
 
 When this process goes wrong, it ends up looking like this:
@@ -20,15 +23,9 @@ As a programmer, you will be expected to build code from all kinds of specificat
 
 More importantly, you have to understand the value each model has. Pseudocode, for example, is primarily used to communicate the essence of an algorithm without getting bogged down in language-specific syntax. A good programmer can take well-written pseudocode and translate it into functional code in the language of his choice.
 
-### Learning Goals
+##Releases
 
-* Modeling a real world problem.
-* Abstracting the core details from a real world problem.
-* Reading and Writing Psuedocode.
-
-## Objectives
-
-### Build from Pseudocode
+###Release 0 : Build from Pseudocode
 
 Here's some pseudo for a `pig_latin` program.
 
@@ -59,9 +56,11 @@ DISPLAY the number of words converted.
 
 Write code that accomplishes the expectations laid out in the pseudocode above.
 
-##Releases
-###Release 0
 
-##Optimize Your Learning
+<!-- ##Optimize Your Learning -->
 
 ##Resources
+
+* [wireframes](http://en.wikipedia.org/wiki/Website_wireframe)
+* [user stories](http://en.wikipedia.org/wiki/User_story)
+* [pseudocode](http://en.wikipedia.org/wiki/Pseudocode)
