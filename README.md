@@ -17,7 +17,7 @@ In this situation your job will involve:
 
 When this process goes wrong, it ends up looking like this:
 
-<img src="/assets/tree_comic.jpg" width="600">
+<img src="https://socrates.devbootcamp.com/assets/tree_comic.jpg" width="600">
 
 As a programmer, you will be expected to build code from all kinds of specifications: [user stories](http://en.wikipedia.org/wiki/User_story), wireframes, [pseudocode](http://en.wikipedia.org/wiki/Pseudocode). It's important to be able to understand how to read these models and translate them into a functional program.
 
