@@ -56,8 +56,9 @@ DISPLAY the number of words converted.
 
 Write code that accomplishes the expectations laid out in the pseudocode above.
 
+#### Remember
 
-<!-- ##Optimize Your Learning -->
+You'll need to write tests in `pig_latin_spec.rb` to prove that your code is working as intended.
 
 ##Resources
 
