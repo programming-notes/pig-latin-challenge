@@ -25,36 +25,32 @@ More importantly, you have to understand the value each model has. Pseudocode, f
 
 ##Releases
 
-###Release 0 : Build from Pseudocode
-
-Here's some pseudo for a `pig_latin` program.
+###Release 0: Convert One Word
 
 ```text
-Script: CONVERT TO PIG LATIN
+CONVERT SINGLE WORD
 
-Iteration One: CONVERT SINGLE WORD
-
-GET a word from user input.
-IF the word starts with a vowel, don't change it.
-ELSE replace the word with its pig latin equivalent.
-  GET all of the consonants before the first vowel in the word.
-  SET the consonants at the end of the word and add the suffix "ay."
+IF the word starts with a vowel, return the word.
+ELSE return the word's pig latin equivalent.
+  MOVE all leading consonants to the end of the word
+  and add the suffix "ay."
 ENDIF
-PRINT the pig-latin-ified word.
 ```
 
-```text
-Iteration Two: CONVERT COMPLETE SENTENCE
+Here's some example pseudocode for a `convert_word_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  Then, write code to accomplish the expectations laid out in the pseudocode, using a test-first approach.
 
-GET a sentence from user input.
+###Release 1: Convert a Sentence
+
+```text
+CONVERT COMPLETE SENTENCE
+
 FOR each word in the sentence.
   CONVERT SINGLE WORD
 ENDFOR
-PRINT the converted sentence.
-DISPLAY the number of words converted.
+RETURN converted sentence
 ```
 
-Write code that accomplishes the expectations laid out in the pseudocode above.
+Here's some pseudocode for a `convert_sentence_to_pig_latin` method.  Write code that accomplishes the expectations laid out in the pseudocode.
 
 #### Remember
 
