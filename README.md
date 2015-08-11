@@ -18,7 +18,7 @@ In this process, we need to understand the value of each specification medium. P
 
 ##Releases
 
-###Release 0: Convert One Word
+### Release 0: Convert One Word
 
 ```text
 CONVERT SINGLE WORD
@@ -29,12 +29,13 @@ ELSE return the word's pig latin equivalent.
   and add the suffix "ay."
 ENDIF
 ```
-*Figure 1*.  Pseudocode for converting a word to pig latin.
+*Figure 2*.  Pseudocode for converting a word to pig latin.
 
 
-In Figure 1 is pseudocode for a `convert_word_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  How does it behave when a word begins with a vowel?  How does it behave when a word begins with one or more consonants?  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
+In Figure 2 is pseudocode for a `convert_word_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  How does it behave when a word begins with a vowel?  How does it behave when a word begins with one or more consonants?  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
 
-###Release 1: Convert a Sentence
+
+### Release 1: Convert a Sentence
 
 ```text
 CONVERT COMPLETE SENTENCE
@@ -44,11 +45,11 @@ FOR each word in the sentence.
 ENDFOR
 RETURN converted sentence
 ```
-*Figure 2*.  Pseudocode for converting a sentence to pig latin.
+*Figure 3*.  Pseudocode for converting a sentence to pig latin.
 
 
-In Figure 2 is pseudocode for a `convert_sentence_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
+In Figure 3 is pseudocode for a `convert_sentence_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
 
 
-##Conclusion
+## Conclusion
 When our methods are behaving as described in the pseudocode, the challenge is complete.  We've taken a description of desired behavior and translated it into code.
