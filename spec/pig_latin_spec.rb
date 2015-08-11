@@ -1,4 +1,4 @@
-require_relative('pig_latin')
+require_relative('../pig_latin')
 
 describe 'Converting single words to Pig Latin' do
 end
