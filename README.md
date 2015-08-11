@@ -16,7 +16,7 @@ In this situation the job will involve:
 
 When this process goes wrong, it ends up looking like this:
 
-<img src="/tree_comic.jpg" width="600">
+<img src="readme-assets/tree_comic.jpg" width="600">
 
 ##Releases
 
