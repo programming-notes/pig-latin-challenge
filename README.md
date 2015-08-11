@@ -53,5 +53,3 @@ In Figure 3 is pseudocode for a `convert_sentence_to_pig_latin` method.  Read th
 
 ## Conclusion
 Understanding what is expected of us and translating that understanding to code can be difficult.  The difficulty often lies not in the coding, but in the communication.  In this challenge, the specifications for our product are fairly concise and have been laid out in writing.  But, often we'll have to patiently work with people to really understand what they need.
-
-
