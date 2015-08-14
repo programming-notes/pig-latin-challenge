@@ -3,24 +3,22 @@
 ##Summary
 In this challenge, we're going to practice building to a specification—in this case a description of the rules of *pig latin*, a sort of secret language based on English words.  Not everyone speaks the same dialect of pig latin; in other words, the rules for converting a word from English to pig latin can differ.  Our rules might be different from someone else's rules.  In this challenge, we're presented with a description of pig latin that needs to be implemented in code.  Regardless of our personal rules for pig latin, we need to implement the rules described.
 
+
 ### Building to a Specification
-As programmers, we are expected to build code from all kinds of specifications: [user stories](http://en.wikipedia.org/wiki/User_story), [wireframes](http://en.wikipedia.org/wiki/Website_wireframe), [pseudocode](http://en.wikipedia.org/wiki/Pseudocode), etc. It's important that we are able to translate these specifications into a functioning program.  More importantly, we have to understand the value each model has. Pseudocode, for example, is primarily used to communicate the essence of an algorithm without getting bogged down in language-specific syntax. A good programmer can take well-written pseudocode and translate it into code in whatever language.
+<img src="readme-assets/tree_comic.jpg" width="600">
 
-Here's a story every programmer knows. George comes up to you one day and asks, "I have an idea for a script, but I don't want to write it. Will you, my talented programmer friend, do it for me?"
+*Figure 1*.  Comic depicting problems in translating specifications to a product.
 
-In this situation the job will involve:
+Here's a story every programmer knows. George comes up to us one day and asks, "I have an idea for a script, but I don't want to write it. Will you, my talented programmer friends, do it for me?"  If we agree to help George, we'll need to understand what he wants, working with him to detail the specifications for the product we're going to build.
 
-1. Understanding the picture George has in his head of what he wants built and why.
-2. Creating various representations of what you think he wants, including product specifications and means to communicate with other engineers.
-3. Implementing prototypes and iterating towards a finalized product.
+As programmers, we are expected to build code from various sources: [user stories](http://en.wikipedia.org/wiki/User_story), [wireframes](http://en.wikipedia.org/wiki/Website_wireframe), [pseudocode](http://en.wikipedia.org/wiki/Pseudocode), etc. It's important that we are able to translate these specifications into a functioning program.  Unfortunately, sometimes this process goes awry (see Figure 1).
 
-When this process goes wrong, it ends up looking like this:
+In this process, we need to understand the value of each specification medium. Pseudocode, for example, is primarily used to communicate the essence of an algorithm without getting bogged down in language-specific syntax. A good programmer can take well-written pseudocode and translate it into code in whatever language.
 
-<img src="/tree_comic.jpg" width="600">
 
 ##Releases
 
-###Release 0: Convert One Word
+### Release 0: Convert One Word
 
 ```text
 CONVERT SINGLE WORD
@@ -31,12 +29,13 @@ ELSE return the word's pig latin equivalent.
   and add the suffix "ay."
 ENDIF
 ```
-*Figure 1*.  Pseudocode for converting a word to pig latin.
+*Figure 2*.  Pseudocode for converting a word to pig latin.
 
 
-In Figure 1 is pseudocode for a `convert_word_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  How does it behave when a word begins with a vowel?  How does it behave when a word begins with one or more consonants?  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
+In Figure 2 is pseudocode for a `convert_word_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  How does it behave when a word begins with a vowel?  How does it behave when a word begins with one or more consonants?  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
 
-###Release 1: Convert a Sentence
+
+### Release 1: Convert a Sentence
 
 ```text
 CONVERT COMPLETE SENTENCE
@@ -46,11 +45,11 @@ FOR each word in the sentence.
 ENDFOR
 RETURN converted sentence
 ```
-*Figure 2*.  Pseudocode for converting a sentence to pig latin.
+*Figure 3*.  Pseudocode for converting a sentence to pig latin.
 
 
-In Figure 2 is pseudocode for a `convert_sentence_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
+In Figure 3 is pseudocode for a `convert_sentence_to_pig_latin` method.  Read through the pseudocode to understand the desired behavior of the method.  Then, write tests in `pig_latin_spec.rb` that will prove that your code is working as intended.  Write code to accomplish the expectations laid out in the pseudocode and described in the tests.
 
 
-##Conclusion
-When our methods are behaving as described in the pseudocode, the challenge is complete.  We've taken a description of desired behavior and translated it into code.
+## Conclusion
+Understanding what is expected of us and translating that understanding to code can be difficult.  The difficulty often lies not in the coding, but in the communication.  In this challenge, the specifications for our product are fairly concise and have been laid out in writing.  But, often we'll have to patiently work with people to really understand what they need.
